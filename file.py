@@ -10,3 +10,8 @@ def run():
 
 def bark():
     return "bow Bow"
+
+def number():
+    import random
+    return random.choice([1,2,3,4,5])
+
